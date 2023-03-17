@@ -2,6 +2,7 @@ import React from "react";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
+import trestleBackground from "../assets/portfolio/trestleBackground.JPG"
 
 const Portfolio = () => {
   const portfolios = [
@@ -18,7 +19,10 @@ const Portfolio = () => {
       id: 3,
       src: installNode,
     },
-    
+    {
+      id: 4,
+      src: trestleBackground,
+    },
   ];
 
   return (
@@ -48,6 +52,9 @@ const Portfolio = () => {
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
+                </button>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                 <a href="https://trestle-beryl.vercel.app/"> Visit </a>
                 </button>
               </div>
             </div>
